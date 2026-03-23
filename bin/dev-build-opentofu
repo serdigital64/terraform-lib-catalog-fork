@@ -68,7 +68,7 @@ function my_build() {
     bl64_msg_show_task 'Promote configuration files to staging'
     bl64_fs_path_merge \
       "$MY_CONFIG" \
-      "$MYDEV_BUILD_OPENTOFU_STAGING_STAGING"
+      "$DEV_BUILD_OPENTOFU_STAGING"
   fi
 
   bl64_msg_show_task 'Run init phase'

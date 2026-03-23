@@ -34,6 +34,7 @@ locals {
     router              = "${local.id.google}rtr"
     secret_key          = "${local.id.google}smk"
     service_account     = "${local.id.google}sac"
+    storage_bucket      = "${local.id.google}stb"
     sql_database        = "${local.id.google}sqd"
     sql_psql_instance   = "${local.id.google}sqi"
     sql_user            = "${local.id.google}squ"

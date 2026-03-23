@@ -59,8 +59,6 @@
 
 # shellcheck disable=SC2154
 {
-  # Env / OpenTofu / Enable export to Terraform compatible registry
-  export DEV_ENV_OPENTOFU_EXPORT_ENABLED="${DEV_ENV_OPENTOFU_EXPORT_ENABLED:-YES}"
   # Env / OpenTofu / Log path
   export DEV_ENV_OPENTOFU_PATH_LOGS="${DEV_ENV_OPENTOFU_PATH_LOGS:-${DEV_PATH_PROF_LOGS}/${DEV_ENV_OPENTOFU_ID}}"
 
@@ -83,6 +81,9 @@
   export DEV_TEST_OPENTOFU_PATH_PLAN="${DEV_BUILD_OPENTOFU_STAGING}/${DEV_TEST_OPENTOFU_FILE_PLAN}"
   # Test / OpenTofu / Log file path
   export DEV_TEST_OPENTOFU_PATH_LOG="${DEV_ENV_OPENTOFU_PATH_LOGS}/${DEV_TEST_OPENTOFU_FILE_LOG}"
+
+  # Pack / OpenTofu / Enable packing repository as terraform module?
+  export DEV_PACK_OPENTOFU_MODULE_ENABLED="${DEV_PACK_OPENTOFU_MODULE_ENABLED:-YES}"
 
   # Deploy / OpenTofu / Enable guardrail to prevent unintended deployment
   export DEV_DEPLOY_OPENTOFU_GUARDRAIL_ENABLED="${DEV_DEPLOY_OPENTOFU_GUARDRAIL_ENABLED:-YES}"
