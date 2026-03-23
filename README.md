@@ -1,12 +1,12 @@
-# terraform-X_PROVIDER_X-X_MODULE_X
+# terraform-lib-catalog
 
-![License](https://img.shields.io/github/license/X_GITHUB_OWNER_X/terraform-X_PROVIDER_X-X_MODULE_X)
-![GitHub stars](https://img.shields.io/github/stars/X_GITHUB_OWNER_X/terraform-X_PROVIDER_X-X_MODULE_X?style=social)
-![GitHub forks](https://img.shields.io/github/forks/X_GITHUB_OWNER_X/terraform-X_PROVIDER_X-X_MODULE_X?style=social)
+![License](https://img.shields.io/github/license/automation64/terraform-lib-catalog)
+![GitHub stars](https://img.shields.io/github/stars/automation64/terraform-lib-catalog?style=social)
+![GitHub forks](https://img.shields.io/github/forks/automation64/terraform-lib-catalog?style=social)
 
 ---
 
-- [terraform-X_PROVIDER_X-X_MODULE_X](#terraform-x_provider_x-x_module_x)
+- [terraform-lib-catalog](#terraform-lib-catalog)
   - [📌 Overview](#-overview)
   - [🛠 Contributing](#-contributing)
   - [⚠️ Disclaimer](#️-disclaimer)
@@ -17,7 +17,9 @@
 
 ## 📌 Overview
 
-X_OVERVIEW_X
+Terraform module that provides a catalog of standard definitions that can be consumed by other terraform modules and projects:
+
+- Asset Prefix DB: normalized prefix for using in resource names
 
 ---
 
@@ -25,7 +27,7 @@ X_OVERVIEW_X
 
 Contributions are welcome! Help us improve by submitting issues, feature requests, or pull requests.
 
-- [Code of Conduct](https://github.com/X_GITHUB_OWNER_X/terraform-X_PROVIDER_X-X_MODULE_X/blob/main/CODE_OF_CONDUCT.md)
+- [Code of Conduct](https://github.com/automation64/terraform-lib-catalog/blob/main/CODE_OF_CONDUCT.md)
 
 ---
 
@@ -37,13 +39,13 @@ This repository is provided "as is" without any warranties. The author is not re
 
 ## 📜 License
 
-**terraform-X_PROVIDER_X-X_MODULE_X** is licensed under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt).
+**terraform-lib-catalog** is licensed under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ---
 
 ## 👤 Author
 
-- X_AUTOR_X
+- [SerDigital64](https://github.com/serdigital64)
 
 ---
 

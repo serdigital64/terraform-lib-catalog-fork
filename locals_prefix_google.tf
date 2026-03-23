@@ -1,0 +1,47 @@
+locals {
+  #
+  # Google_Compute_Platform
+  #
+
+  pgg = {
+    artifact_debian     = "${local.id.google}adb"
+    artifact_registry   = "${local.id.google}arg"
+    artifact_yum        = "${local.id.google}aym"
+    bucket              = "${local.id.google}csb"
+    compute_disk        = "${local.id.google}cdk"
+    compute_group       = "${local.id.google}cgp"
+    compute_image       = "${local.id.google}cim"
+    compute_instance    = "${local.id.google}cin"
+    compute_policy_disk = "${local.id.google}cpd"
+    compute_snapshot    = "${local.id.google}csn"
+    compute_template    = "${local.id.google}ctp"
+    datacenter          = "${local.id.google}dtc"
+    folder              = "${local.id.google}fld"
+    fs_backup           = "${local.id.google}fsb"
+    fs_export           = "${local.id.google}fsx"
+    fs_instance         = "${local.id.google}fsi"
+    fs_snapshot         = "${local.id.google}fss"
+    fw_policy           = "${local.id.google}fwp"
+    gke_cluster         = "${local.id.google}gkc"
+    gke_node_pool       = "${local.id.google}gkn"
+    group               = "${local.id.google}grp"
+    kms_key             = "${local.id.google}kky"
+    kms_ring            = "${local.id.google}krg"
+    managed_account     = "${local.id.google}mac"
+    nat                 = "${local.id.google}nat"
+    organization        = "${local.id.google}org"
+    project             = "${local.id.google}prj"
+    router              = "${local.id.google}rtr"
+    secret_key          = "${local.id.google}smk"
+    service_account     = "${local.id.google}sac"
+    sql_database        = "${local.id.google}sqd"
+    sql_psql_instance   = "${local.id.google}sqi"
+    sql_user            = "${local.id.google}squ"
+    vpc_firewall        = "${local.id.google}vfw"
+    vpc_firewall_policy = "${local.id.google}vfp"
+    vpc_ip              = "${local.id.google}vip"
+    vpc_network         = "${local.id.google}vnw"
+    vpc_route           = "${local.id.google}vrt"
+    vpc_subnetwork      = "${local.id.google}vsn"
+  }
+}

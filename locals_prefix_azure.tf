@@ -1,0 +1,8 @@
+locals {
+  #
+  # Azure
+  #
+
+  paz = {
+  }
+}

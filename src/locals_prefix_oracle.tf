@@ -1,0 +1,8 @@
+locals {
+  #
+  # Oracle
+  #
+
+  poc = {
+  }
+}
