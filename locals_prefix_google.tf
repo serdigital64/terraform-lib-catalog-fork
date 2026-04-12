@@ -47,5 +47,6 @@ locals {
     vpc_network         = "${local.id.google}vnw"
     vpc_route           = "${local.id.google}vrt"
     vpc_subnetwork      = "${local.id.google}vsn"
+    vpc_address_global  = "${local.id.google}vag"
   }
 }

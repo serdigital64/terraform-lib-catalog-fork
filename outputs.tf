@@ -1,3 +1,8 @@
+output "shared__labels" {
+  description = "Module wide labels"
+  value       = local.shared__labels
+}
+
 output "id" {
   description = "Catalog of provider IDs"
   value       = local.id
